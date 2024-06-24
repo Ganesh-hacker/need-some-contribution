@@ -197,7 +197,9 @@ const CartItem = ({ item, onAdd, onSubtract, onRemove }) => {
   return (
     <li className="_grid shopping-cart--list-item">
       <div className="_column product-image">
-        <img className="product-image--img" src={item.imgurl1} alt="Item image" />
+      <Link to={`/productdetails?id=${item.id}`}>
+      <img className="product-image--img" src={item.imgurl1} alt="Item image" />
+      </Link>
       </div>
       <div className="_column product-info">
         <h4 className="product-name">{item.name}</h4>
@@ -456,7 +458,9 @@ console.log(cart);
       <div>
          <li className="_grid shopping-cart--list-item">
       <div className="_column product-image">
+        <Link to={`/productdetails?id=${product.Id}`}>
         <img className="product-image--img" src={product.imgurl1} alt="Item image" />
+      </Link>
       </div>
       <div className="_column product-info">
         <h4 className="product-name">{product.name}</h4>

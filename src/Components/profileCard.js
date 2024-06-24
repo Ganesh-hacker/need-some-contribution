@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState, useRef } from "react";
 import { useLocation } from 'react-router-dom';
-import '../Stylesheets/ProfileCard.css';
+import '../Stylesheets/profileCard.css'
 import { Link } from "react-router-dom";
 const ProfileCard = () => {
 
