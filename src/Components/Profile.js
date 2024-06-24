@@ -6,6 +6,7 @@ import shoppingcart from "../Assets/shoppingcart.png"
 import editprofile from "../Assets/editprofile.png"
 import manageaddress from "../Assets/manageaddress.png"
 import Logout from "../Assets/Logout.png"
+import history from "../Assets/history.png"
 const Profile = () => {
     function handleLogout(){
         localStorage.clear()
