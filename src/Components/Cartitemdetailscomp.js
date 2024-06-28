@@ -390,7 +390,7 @@ console.log(cart);
   };
 
   const calculateTaxes = (subtotal) => {
-    return subtotal * 0.06;
+    return subtotal * 0.12;
   };
 
   const subtotal = calculateSubtotal();

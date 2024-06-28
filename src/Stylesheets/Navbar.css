@@ -44,6 +44,24 @@ body {
   text-decoration: none;
   color: #37a000;
 }
+.top_nav .left .pincode p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #494949;
+  font-family: "Mountains of Christmas", cursive;
+  margin-right: 25px;
+  cursor:pointer
+}
+
+.top_nav .left .pincode p span {
+  color: #161616;
+  opacity: 0.8;
+}
+
+.top_nav .left .pincode p span img {
+ height: 25px;
+ width: 25px;
+}
 
 .top_nav .left .search_bar input[type="text"] {
   border: 1px solid #666666;
